@@ -1,0 +1,11 @@
+Sample.Code	Species	Treatment	Tissue	Sampling.Time	Photoperiod	Temperature	Light.Intensity	Relative.Humidity
+S1	Setaria viridis	Leaf Segment 1 	3rd Leaf	ZT2	12H Day / 12 H Night	31C Day / 22C Night	500 umol	50%
+S2	Setaria viridis	Leaf Segment 2	3rd Leaf	ZT2	12H Day / 12 H Night	31C Day / 22C Night	500 umol	50%
+S3	Setaria viridis	Leaf Segment 3	3rd Leaf	ZT2	12H Day / 12 H Night	31C Day / 22C Night	500 umol	50%
+S4	Setaria viridis	Leaf Segment 4	3rd Leaf	ZT2	12H Day / 12 H Night	31C Day / 22C Night	500 umol	50%
+10D	Setaria viridis	10 Days	Inflorescence	ZTX	12H Day / 12 H Night	31C Day / 23C Night	200 umol	50%
+12D	Setaria viridis	12 Days	Inflorescence	ZTX	12H Day / 12 H Night	31C Day / 23C Night	200 umol	50%
+14D	Setaria viridis	14 Days	Inflorescence	ZTX	12H Day / 12 H Night	31C Day / 23C Night	200 umol	50%
+15D	Setaria viridis	15 Days	Inflorescence	ZTX	12H Day / 12 H Night	31C Day / 23C Night	200 umol	50%
+16D	Setaria viridis	16 Days	Inflorescence	ZTX	12H Day / 12 H Night	31C Day / 23C Night	200 umol	50%
+18D	Setaria viridis	18 Days	Inflorescence	ZTX	12H Day / 12 H Night	31C Day / 23C Night	200 umol	50%
