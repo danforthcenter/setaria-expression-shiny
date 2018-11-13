@@ -84,7 +84,8 @@ ui <- dashboardPage(
                          p("For more information on the experiments please refer to the primary data sources: 
                            For the leaf data see ", 
                            a(href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1080-3",target='_blank',"Studer et al. 2016")," and for the infloresence data see ", 
-                           a(href="https://www.frontiersin.org/articles/10.3389/fpls.2018.01309/full#h3",target='_blank',"Zhu et al. 2018")),
+                           a(href="https://www.frontiersin.org/articles/10.3389/fpls.2018.01309/full#h3",target='_blank',"Zhu et al. 2018."),
+                           " For leaf data, data has been remapped to Setaria v2.1 by Inder Kumar."),
                          div(style = 'overflow-x: scroll', dataTableOutput("conditions.table"))
                      )
                    )
@@ -684,13 +685,13 @@ server<-function(input,output,session){
   output$download.leaf.plot <- downloadHandler(
     filename = function() { paste('setaria_leaf_plot_',strftime(Sys.time(),"%m-%d-%y_%H%M%S"),".svg", sep='') },
     content=function(file){
-      ggsave(file, plot = plot.input1(), device = "svg",height =8, width=10)
+      ggsave(file, plot = plot.input5(), device = "svg",height =8, width=10)
     }, contentType='image/svg')
   
   output$download.inflor.plot <- downloadHandler(
     filename = function() { paste('setaria_inflor_plot_',strftime(Sys.time(),"%m-%d-%y_%H%M%S"),".svg", sep='') },
     content=function(file){
-      ggsave(file, plot = plot.input3(), device = "svg",height =8, width=10)
+      ggsave(file, plot = plot.input6(), device = "svg",height =8, width=10)
     }, contentType='image/svg')
   
   output$download.leaf.heat <- downloadHandler(
